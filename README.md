@@ -3,7 +3,7 @@ Before you can code you need to build the environment required to get things up 
 
 Readme.md - this file
 
-Basic.md - quick guide to setting up the required cloud services (run first)
+github.md - quick guide to using git
 
 Windows.md - windows tools
 
