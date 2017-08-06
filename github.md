@@ -1,5 +1,7 @@
 // "#" seems to create a header in github - others?
+
 // would also appear that everything needs to be double spaced for newline by default
+
 
 # Git flow
 workingdir--> index (stage)--> head (commit)
@@ -18,6 +20,7 @@ git config --global user.name "name"
 
 git config --global user.email "user@mail.com"
 
+If you have 2FA enabled, you need to generate a "Personal Access Token" to use as a push password! Burned me for a while while experimenting with multiple machines.
 
 # Snag existing
 git clone username@host:/path/to/repository
