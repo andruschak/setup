@@ -1,4 +1,5 @@
 // "#" seems to create a header in github - others?
+// would also appear that everything needs to be double spaced for newline by default
 
 # Git flow
 workingdir--> index (stage)--> head (commit)
