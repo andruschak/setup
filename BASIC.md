@@ -9,6 +9,8 @@ Github:
 2. Setup ssh keys
 3. Test connectivity
 
+// "#" seems to create a header in github - others?
+
 # Git flow
 workingdir--> index (stage)--> head (commit)
 
@@ -23,7 +25,7 @@ git config --global user.name "name"
 git config --global user.email "user@mail.com"
 
 
-# snag existing
+# Snag existing
 git clone username@host:/path/to/repository
 
 
