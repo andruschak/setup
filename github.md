@@ -1,6 +1,7 @@
-// "#" seems to create a header in github - others?
+// "#" seems to create a header in github - others? maybe html
 
 // would also appear that everything needs to be double spaced for newline by default
+
 
 
 # Git flow
@@ -21,6 +22,15 @@ git config --global user.name "name"
 git config --global user.email "user@mail.com"
 
 If you have 2FA enabled, you need to generate a "Personal Access Token" to use as a push password! Burned me for a while while experimenting with multiple machines.
+
+# SSH-keys (use the ssh-agent for additional security)
+open git bash (if windows)
+
+ssh-keygen -t rsa -b 4096 -C "email@address.com"
+
+Enter a file in which to save the key (/c/Users/username/.ssh/id_rsa): <press enter>
+
+
 
 # Snag existing
 git clone username@host:/path/to/repository
@@ -61,4 +71,9 @@ git reset --hard origin/master // dumps everything local and redownloads
 
 # References:
 Git basic commands (no deep shit - http://rogerdudler.github.io/git-guide/):
+
+Git ssh basics (https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+
+Github ssh w/ agent (https://help.github.com/articles/working-with-ssh-key-passphrases/)
+
 
