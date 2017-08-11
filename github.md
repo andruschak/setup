@@ -2,6 +2,7 @@
 
 // would also appear that everything needs to be double spaced for newline by default
 
+// always remember to do a "pull" when you pick up from any machine so you always have the latest
 
 
 # Git flow
