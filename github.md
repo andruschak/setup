@@ -4,6 +4,26 @@
 
 // always remember to do a "pull" when you pick up from any machine so you always have the latest
 
+# get me up and running
+
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+eval $(ssh-agent -s)
+
+ssh-add ~/.ssh/id_rsa
+
+cat ~/.ssh/id_rsa.pub
+
+paste public key into the SSH keys section of your github settings
+
+switch to SSH (can check with "git remote -v"
+
+git remote set-url origin git@github.com:USERNAME/REPOSITORY.git
+
+
+
+
+
 
 # Git flow
 workingdir--> index (stage)--> head (commit)
@@ -22,7 +42,7 @@ git config --global user.name "name"
 
 git config --global user.email "user@mail.com"
 
-If you have 2FA enabled, you need to generate a "Personal Access Token" to use as a push password! Burned me for a while while experimenting with multiple machines.
+If you have 2FA enabled, you need to generate a "Personal Access Token" to use as a push password! Burned me for a while while experimenting with https on multiple machines
 
 # SSH-keys (use the ssh-agent for additional security)
 open git bash (if windows)
