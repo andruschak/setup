@@ -1,25 +1,29 @@
 # Quick notes on setting up a windows box for development (may not be copy:paste)
 
+ 
 
-
-# Package management (think "apt-get" for windows)
+# package management (think "apt-get" for windows)
 install chocolatey 
 
 install packages: choco install git golang python notepadplusplus 7zip 
 
 
-# Dev environments
+# dev environments
 
 visual studio code
 
 
 
-# Hyper-V w/ Powershell
+# hyper-V w/ Powershell
 
 start->run "optionalfeatures.exe", do a full install of mgmt tools and platform
 
 
 # powershell
+
+basic idea: install hyper-v, create a new vswitch, create a linux vm from ISO, start-vm, update, configure ssh, install packages
+
+ 
 
 Get-NetAdapter
  
