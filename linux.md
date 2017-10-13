@@ -8,7 +8,7 @@ eval $(ssh-agent -s)
 
 ssh-add ~/.ssh/id_rsa
 
-# configure git (should be install by default, if not, "apg-get install git")
+# configure git (should be install by default, if not, "apt-get install git")
 
 git config --global user.name "name"
 
