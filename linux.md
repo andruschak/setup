@@ -8,7 +8,7 @@ eval $(ssh-agent -s)
 
 ssh-add ~/.ssh/id_rsa
 
-# configure git (should be install by default, if not, "apg-get install git")
+# configure git (should be install by default, if not, "apt-get install git")
 
 git config --global user.name "name"
 
@@ -30,8 +30,12 @@ jupyter notebook --ip=* --generate-config
 
 jupyter notebook password
 
+<<<<<<< HEAD
 http://jupyter-notebook.readthedocs.io/en/latest/public_server.html
 
 
 
 screen jupyter notebook --ip=* 
+=======
+screen jupyter notebook --ip=* 
+>>>>>>> 6a36b11e49c097d6457d27f2aaa4610bf780b19a
