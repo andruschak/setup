@@ -30,4 +30,8 @@ jupyter notebook --ip=* --generate-config
 
 jupyter notebook password
 
+http://jupyter-notebook.readthedocs.io/en/latest/public_server.html
+
+
+
 screen jupyter notebook --ip=* 
